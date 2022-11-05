@@ -6,6 +6,7 @@ Program that screens specified contract addresses for transactions and alerts vi
 of interest is found. Currently supports the following networks:
 [Ethereum](https://etherscan.io), [Optimism](https://optimistic.etherscan.io/),
 [Arbitrum](https://arbiscan.io/), [Polygon](https://polygonscan.com), [Gnosis](https://blockscout.com/xdai/mainnet/).
+
 -------------------------------------------------------------------------------------------------------------------------
 
 ## Installation
