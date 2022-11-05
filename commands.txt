@@ -1,0 +1,6 @@
+docker run --name="etherscan" -it "eu.gcr.io/hip-orbit-347017/etherscan" python3 etherscan.py -e "$(cat etherscan.json)"
+# docker cp etherscan:/etherscan/logs/error.log .
+
+# To run docker container checker
+docker cp etherscan:/etherscan/.env . | chmod go-rw .env
+nohup python3 container_check.py etherscan &

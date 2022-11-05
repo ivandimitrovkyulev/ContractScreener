@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ContractScreener"
+version = "0.1.0"
+description = "Program that screens blockchain smart contracts for new transactions and alerts via Telegram."
+authors = ["IK <ivandkyulev@gmail.com>"]
+license = "GNU GENERAL PUBLIC LICENSE"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^0.21.0"
+urllib3 = "^1.26.12"
+requests = "^2.28.1"
+tabulate = "^0.9.0"
+web3 = "^5.31.1"
+aiohttp = "^3.8.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
